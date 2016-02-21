@@ -16,5 +16,4 @@ for n in rango{
     if n >= 30 && n <= 40{
         print("# \(n) Viva Swift!!!")
     }
-    
 }
