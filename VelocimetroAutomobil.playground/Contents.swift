@@ -44,9 +44,11 @@ class Auto{
 
 var auto = Auto()
 
-for var i = 0; i < 20 ; i++ {
+for i in 0...19 {
     var velocidadActual = auto.cambioDeVelocidad()
     print("\(velocidadActual.actual),\(velocidadActual.velocidadEnCadena)")
+    
+    print(velocidadActual)
 }
 
 
